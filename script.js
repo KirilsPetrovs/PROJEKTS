@@ -1,7 +1,8 @@
 
+// Function to show selected section and hide others
 function showSection(sectionId) {
     // Hide all sections
-    const sections = document.querySelectorAll('.section');
+    const sections = document.querySelectorAll('section');
     sections.forEach(section => {
         section.style.display = 'none';
     });
@@ -13,7 +14,7 @@ function showSection(sectionId) {
     }
 }
 
-// Show the home section by default
-window.onload = function() {
+// Show the home section by default when page loads
+document.addEventListener('DOMContentLoaded', function() {
     showSection('par-mums');
-};
+});
