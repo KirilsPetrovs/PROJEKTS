@@ -1,84 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRUITS</title>
+    <title>Fruits</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="./attached_assets/{F6C765AF-164B-40A9-8F4C-5AC47B607113}.png" alt="FRUITS">
+            <img src="./logo.png" alt="Logo">
         </div>
         <div class="nav-links">
-            <a href="#" onclick="showSection('par-mums')">PAR MUMS</a>
-            <a href="#" onclick="showSection('produkti')">PRODUKTI</a>
-            <a href="#" onclick="showSection('cenas')">CENAS</a>
-            <a href="#" onclick="showSection('sudziras')">SŪDZĪBAS</a>
-            <a href="#" onclick="showSection('kontakti')">KONTAKTI</a>
-            <a href="#" onclick="showSection('autorizacija')">AUTORIZĀCIJA</a>
+            <a href="#" onclick="showSection('home')">HOME</a>
+            <a href="#" onclick="showSection('about')">ABOUT</a>
+            <a href="#" onclick="showSection('products')">PRODUCTS</a>
+            <a href="#" onclick="showSection('contact')">CONTACT</a>
         </div>
     </nav>
 
     <main>
-        <section id="par-mums" class="section">
-            <h2>PAR MUMS</h2>
-            <p>Mēs esam "Fruits" - uzņēmums, kas nodarbojas ar augļu un ogu piegādi. Mēs esam uzņēmums, kas strādā ar augļu ražošanu un pieaugšanu. Mūsu uzņēmums jau darbojas 10 gadus. Mūsu uzņēmumā strādā 100 cilvēki.</p>
-            <p>Mums ir sava siltumnīca, kur mēs izaudzējam augļus un ogas. Pēc tam mēs tos piegādājam uz veikaliem un citiem uzņēmumiem. Mēs strādājam ar lielākajiem veikaliem Latvijā.</p>
+        <section id="home" class="section">
+            <h2>Welcome to Fruits</h2>
+            <p>Your destination for fresh and healthy fruits!</p>
         </section>
 
-        <section id="produkti" class="section">
-            <h2>PRODUKTI</h2>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best quality fruits to our customers.</p>
+        </section>
+
+        <section id="products" class="section">
+            <h2>Our Products</h2>
             <div class="product-grid">
-                <img src="./attached_assets/{2969D4C6-EC03-4B3D-89A4-BBBD303AD7FB}.png" alt="Product Image">
-                <img src="./attached_assets/{2399141D-0CB4-492D-A4C3-5855F698BBDC}.png" alt="Product Image">
-                <img src="./attached_assets/{4D516666-B485-4721-A566-2CCB60D4F0B3}.png" alt="Product Image">
-                <img src="./attached_assets/{B7E47F42-B754-4400-9847-895569EC5FF6}.png" alt="Product Image">
-                <img src="./attached_assets/{BEC089DE-DBD4-4DB3-9E3A-C40A895BD1ED}.png" alt="Product Image">
+                <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e" alt="Bananas">
+                <img src="https://images.unsplash.com/photo-1619546813926-a78fa6372cd2" alt="Apples">
+                <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b" alt="Oranges">
+                <img src="https://images.unsplash.com/photo-1559181567-c3190ca9959b" alt="Cherries">
             </div>
         </section>
 
-        <section id="cenas" class="section">
-            <h2>CENAS</h2>
-            <div class="price-list">
-                <p>Zemenes - 3.99€/kg</p>
-                <p>Mellenes - 4.99€/kg</p>
-                <p>Avenes - 5.99€/kg</p>
-                <p>Ērkšķogas - 2.99€/kg</p>
-                <p>Upenes - 3.50€/kg</p>
-                <p>Jāņogas - 2.99€/kg</p>
-            </div>
-        </section>
-
-        <section id="sudziras" class="section">
-            <h2>SŪDZĪBAS</h2>
-            <form class="complaint-form">
-                <input type="text" placeholder="Vārds Uzvārds" required>
-                <input type="email" placeholder="E-pasts" required>
-                <textarea placeholder="Jūsu sūdzība" required></textarea>
-                <button type="submit">Nosūtīt</button>
-            </form>
-        </section>
-
-        <section id="kontakti" class="section">
-            <h2>KONTAKTI</h2>
-            <div class="contact-info">
-                <p>Tālrunis: +371 67890123</p>
-                <p>E-pasts: info@fruits.lv</p>
-                <p>Adrese: Augļu iela 1, Rīga, LV-1001</p>
-                <p>Darba laiks: P-Pk 9:00-18:00</p>
-            </div>
-        </section>
-
-        <section id="autorizacija" class="section">
-            <h2>AUTORIZĀCIJA</h2>
-            <form class="auth-form">
-                <input type="text" placeholder="Lietotājvārds" required>
-                <input type="password" placeholder="Parole" required>
-                <button type="submit">Ieiet</button>
-            </form>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: contact@fruits.com</p>
+            <p>Phone: (123) 456-7890</p>
         </section>
     </main>
     <script src="script.js"></script>
