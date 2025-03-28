@@ -65,8 +65,27 @@ h3 {
     font-size: 1.2rem;
 }
 
+#par-mums {
+    position: relative;
+}
+
+#par-mums .text-center {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#par-mums .text-left {
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#par-mums .text-right {
+    text-align: right;
+    margin-right: 2rem;
+}
+
 #par-mums p {
-    margin-bottom: 1rem;
     line-height: 1.6;
 }
 
