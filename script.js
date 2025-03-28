@@ -31,7 +31,17 @@ document.addEventListener('DOMContentLoaded', function() {
     authForm.addEventListener('submit', function(e) {
         e.preventDefault();
         const username = this.querySelector('input[type="text"]').value;
-        alert(`Sveicināti, ${username}! Jūs esat veiksmīgi pieteicies.`);
+        const password = this.querySelector('input[type="password"]').value;
+        
+        // Check credentials (you can change these values)
+        const correctUsername = "admin";
+        const correctPassword = "password123";
+        
+        if (username === correctUsername && password === correctPassword) {
+            alert("Jūs esat veiksmīgi pieteicies!");
+        } else {
+            alert("Nepareizs lietotājvārds vai parole!");
+        }
         authForm.reset();
     });
 });
