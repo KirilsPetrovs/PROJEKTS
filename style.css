@@ -56,6 +56,18 @@ main {
 h2 {
     color: #00BCD4;
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3 {
+    color: #00BCD4;
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+#par-mums p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 .product-grid {
