@@ -16,7 +16,7 @@ function showSection(sectionId) {
 
 // Show the home section by default when page loads
 document.addEventListener('DOMContentLoaded', function() {
-    showSection('par-mums');
+    showSection('sakums');
 
     // Handle complaint form submission
     const complaintForm = document.querySelector('.complaint-form');
