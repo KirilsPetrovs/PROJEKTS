@@ -201,9 +201,20 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-box h3 {
     color: #00BCD4;
     margin-bottom: 1rem;
+    transform: rotate(180deg);
+}
+
+.info-box p {
+    transform: rotate(180deg);
 }
