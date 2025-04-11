@@ -75,31 +75,17 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem;
-    background: #e8f5e9;
-    position: relative;
 }
 
 #par-mums h2 {
     grid-column: 1 / -1;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 1rem;
-    background: #4caf50;
-    color: white;
-    border-radius: 0 8px 8px 0;
-    transform: translateY(-50%) rotate(180deg);
 }
 
 #par-mums div {
-    background: white;
+    background: #f5f5f5;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-left: 3rem;
 }
 
 #par-mums .text-center,
@@ -201,20 +187,9 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .info-box h3 {
     color: #00BCD4;
     margin-bottom: 1rem;
-    transform: rotate(180deg);
-}
-
-.info-box p {
-    transform: rotate(180deg);
 }
