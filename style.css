@@ -81,7 +81,7 @@ p {
 
 #par-mums h2 {
     grid-column: 1 / -1;
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
     text-orientation: mixed;
     position: absolute;
     left: 0;
@@ -91,6 +91,7 @@ p {
     background: #4caf50;
     color: white;
     border-radius: 0 8px 8px 0;
+    transform: translateY(-50%) rotate(180deg);
 }
 
 #par-mums div {
