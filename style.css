@@ -71,32 +71,27 @@ p {
 }
 
 #par-mums {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
     padding: 2rem;
+    background: #9DF7E5;
 }
 
 #par-mums h2 {
-    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #000;
 }
 
-#par-mums div {
-    background: #f5f5f5;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-#par-mums .text-center,
-#par-mums .text-left,
-#par-mums .text-right {
+.par-mums-content {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
 
 #par-mums p {
-    line-height: 1.6;
-    margin-top: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #000;
 }
 
 .product-grid {
