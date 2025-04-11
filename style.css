@@ -72,7 +72,12 @@ p {
 
 #par-mums {
     padding: 2rem;
+}
+
+.par-mums-content {
     background: #9DF7E5;
+    padding: 2rem;
+    border-radius: 8px;
 }
 
 #par-mums h2 {
