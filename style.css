@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 
 body {
     font-family: young serif;;
-    background-color: #E0F7F7;
+    background-color: #E0FFFF;
 }
 
 nav {
@@ -43,7 +42,7 @@ main {
 
 .section {
     display: none;
-    background-color: white;
+    background-color: #E0FFFF;
     padding: 2rem;
     border-radius: 8px;
     margin-top: 2rem;
@@ -75,7 +74,7 @@ p {
 }
 
 .par-mums-content {
-    background: #4BE374;
+    background: #87CEEB;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -138,7 +137,7 @@ input, textarea {
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #00BCD4;
+    background-color: #1E90FF;
     color: white;
     border: none;
     border-radius: 4px;
@@ -146,7 +145,7 @@ button {
 }
 
 button:hover {
-    background-color: #008ba3;
+    background-color: #4169E1;
 }
 
 .contact-info {
