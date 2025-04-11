@@ -156,8 +156,7 @@ button:hover {
 .main-slide {
     text-align: center;
     padding: 3rem 1rem;
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('https://images.unsplash.com/photo-1619546813926-a78fa6372cd2');
-    background-size: cover;
+    background: #ffffff;
     border-radius: 8px;
     margin-bottom: 3rem;
 }
