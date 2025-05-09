@@ -1,3 +1,8 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
     margin: 0;
@@ -7,11 +12,11 @@
 
 body {
     font-family: young serif;;
-    background-color: #E0F7F7;
+    background-color: #b3f0e9;
 }
 
 nav {
-    background-color: white;
+    background-color: #b3f0e9;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -43,7 +48,7 @@ main {
 
 .section {
     display: none;
-    background-color: white;
+    background-color: #b3f0e9;
     padding: 2rem;
     border-radius: 8px;
     margin-top: 2rem;
@@ -54,14 +59,14 @@ main {
 }
 
 h2 {
-    color: #00BCD4;
+    color: #000000;
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.4rem;
 }
 
 h3 {
-    color: #00BCD4;
+    color: #b3f0e9;
     margin: 1.5rem 0 0.5rem 0;
     font-size: 1rem;
 }
@@ -75,7 +80,7 @@ p {
 }
 
 .par-mums-content {
-    background: #9DF7E5;
+    background: #98ecc4;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -132,13 +137,13 @@ form {
 
 input, textarea {
     padding: 0.5rem;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 4px;
 }
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #00BCD4;
+    background-color: #b3f0e9;
     color: white;
     border: none;
     border-radius: 4px;
@@ -146,7 +151,7 @@ button {
 }
 
 button:hover {
-    background-color: #008ba3;
+    background-color: #b3f0e9;
 }
 
 .contact-info {
@@ -156,20 +161,71 @@ button:hover {
 .main-slide {
     text-align: center;
     padding: 3rem 1rem;
-    background: #ffffff;
+    background: #b3f0e9;
     border-radius: 8px;
     margin-bottom: 3rem;
 }
 
 .main-slide h1 {
-    font-size: 2.5rem;
-    color: #00BCD4;
+    font-size: 2.0rem;
+    color: #000000;
     margin-bottom: 1rem;
 }
+.main-slide5  {
+color: #000000;
+    text-align: left;
+    padding: 3rem 1rem;
+    background: #b3f0e9;
+    border-radius: 10px;
+    margin-bottom:5rem;
+white-space: nowrap;
 
+    
+}
+
+.main-slide6   {
+
+text-align: right ;
+padding: 3rem 1rem;
+margin-bottom: 3rem;
+width: 100%;
+margin-right: 100px;
+
+}
+
+ 
+
+#mainslide {
+    text-align: left;
+    padding: 3rem 1rem;
+    background: #98ecc4;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    width: 60%;
+    margin-right: 100px;
+    
+}
+
+#mainslide2 {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #98ecc4;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+#mainslide3 {
+    text-align: right;
+    padding: 3rem 1rem;
+    background: #98ecc4;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    width: 40%;
+    margin-right: 60px;
+}
 .main-text {
     font-size: 1.2rem;
-    color: #333;
+    color: #000000;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -190,6 +246,13 @@ button:hover {
 }
 
 .info-box h3 {
-    color: #00BCD4;
+    color: #4be374;
     margin-bottom: 1rem;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
 }
